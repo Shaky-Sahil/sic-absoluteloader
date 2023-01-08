@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1673179427 source:c:\users\sahil\my_programs\absolute_loader.c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
