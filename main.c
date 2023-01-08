@@ -34,7 +34,6 @@ void writetooutputfile() {
   address = strtol(starting_address, NULL, 16);
   while (record[recordpointer] != '\0') {
     fprintf(outptr, "%x\t",address);
-
       strncpy(objectcode, record + (recordpointer), 6);
       fprintf(outptr, "%s\n", objectcode);
       recordpointer += 7;
